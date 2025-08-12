@@ -62,5 +62,5 @@ Sumber data API: Santri Koding - API Al-Qur'an
 
 ---
 
-![preview img](/assets/img/preview.png)
+![preview img](/assets/img/preview-ui.png)
 
