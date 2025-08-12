@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #faf7f2;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-weight: bold;
+    background-color: #f5ede0;
+}
+
+.surah-title {
+    font-size: 18px;
+}
+
+.surah-info {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 10px;
+    background-color: #fbe9c9;
+    border-bottom: 1px solid #ddd;
+}
+
+.surah-info,
+.description {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.judul-surah {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    margin-top: 16px;
+}
+
+.arab {
+    text-align: right;
+}
+
+.basmallah {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 16px;
+    font-family: "Scheherazade", serif;
+}
+
+.ayat-card {
+    background-color: #fefbf7;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+}
+
+.ayat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ayat-number {
+    background-color: #e4dacb;
+    padding: 6px 10px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.arabic-text {
+    font-size: 22px;
+    font-family: "Amiri", serif;
+    direction: rtl;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    text-align: right;
+    color: #222;
+}
+
+.latin-text {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 8px;
+}
