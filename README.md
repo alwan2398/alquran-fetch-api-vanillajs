@@ -15,18 +15,18 @@ Data diambil dari API berikut:
 
 📱 Responsive Mobile UI – Tampilan antarmuka yang ramah di perangkat mobile.
 
----
-
 📂 Struktur Folder
+```
 .
 ├── index.html                 # File utama HTML
 ├── assets/
 │   ├── css/
-│   │   └── style.css          # File CSS untuk styling
+│   │   └── style.css          # File CSS
 │   ├── js/
-│   │   └── main.js            # File JavaScript untuk Fetch API
+│   │   └── main.js            # File JavaScript
 │   └── img/
-│       └── preview-ui.png     # Preview UI untuk README
+│       └── preview-ui.png     # Gambar Preview UI di README
+```
 
 
 ---
@@ -37,7 +37,7 @@ Clone Repository
 bash
 Salin
 Edit
-git clone https://github.com/username/repo-name.git
+git clone https://github.com/alwan2398/alquran-fetch-api-vanillajs.git
 Buka Folder Project
 
 bash
@@ -62,5 +62,5 @@ Sumber data API: Santri Koding - API Al-Qur'an
 
 ---
 
-![preview img](/img/preview.png)
+![preview img](/assets/img/preview.png)
 
