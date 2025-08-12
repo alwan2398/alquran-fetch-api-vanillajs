@@ -33,7 +33,7 @@ Data diambil dari API berikut:
 
 🚀 Cara Menjalankan Project
 Clone Repository
-
+```
 bash
 Salin
 Edit
@@ -43,9 +43,12 @@ Buka Folder Project
 bash
 Salin
 Edit
-cd repo-name
+cd alquran-fetch-api-vanillajs
 Buka index.html di Browser
 Anda bisa langsung klik dua kali file index.html atau menggunakan live server di VS Code.
+```
+
+---
 
 🛠️ Teknologi yang Digunakan
 HTML5 – Struktur halaman.
